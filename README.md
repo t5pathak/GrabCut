@@ -32,16 +32,16 @@ Tested for 2 different images and observed that a tighter bounding box was bette
 ### Effect of a number of iterations
 Tested for 2 different images and compared with different number of images. The initial bounding box was identical for both n=1 and n=5. 
 - With the increase in iterations, notice how the segmentation boundary come closer to the real boundary. Pay attention to the boundary on top. As the number of iterations keep increasing we expect the segmentation to get even better.
-- <img width="500" alt="n_1" src="https://user-images.githubusercontent.com/44245211/137881180-c8bbe1db-d122-40cb-acfa-d9113cc31bb6.png">
+> <img width="500" alt="n_1" src="https://user-images.githubusercontent.com/44245211/137881180-c8bbe1db-d122-40cb-acfa-d9113cc31bb6.png">
 - Similarly in this image of the bush the boundary gets tighter and tighter with increasing number of iterations.
-- <img width="400" alt="n_2" src="https://user-images.githubusercontent.com/44245211/137881183-c77ffa46-5bb1-407b-8b39-5cf260bffe2a.png">
+> <img width="400" alt="n_2" src="https://user-images.githubusercontent.com/44245211/137881183-c77ffa46-5bb1-407b-8b39-5cf260bffe2a.png">
 
 ### Changing the value of Gamma
 Increasing the value of gamma made the segmentation process more aggressive. We altered the values of gamma for the same initial bounding box.
 - Higher gamma has a more aggressive background seperation for the banana.
-- <img width="500" alt="g_1" src="https://user-images.githubusercontent.com/44245211/137881185-a4364141-4644-4e95-8cb9-75caa90d719f.png">
+> <img width="500" alt="g_1" src="https://user-images.githubusercontent.com/44245211/137881185-a4364141-4644-4e95-8cb9-75caa90d719f.png">
 - Observe the same effect with the stone.
-- <img width="500" alt="g_2" src="https://user-images.githubusercontent.com/44245211/137881187-74e0ca77-842c-4887-ab84-893df2924d71.png">
+> <img width="500" alt="g_2" src="https://user-images.githubusercontent.com/44245211/137881187-74e0ca77-842c-4887-ab84-893df2924d71.png">
 
 # Directory Structure
 - ```src``` folder contains the source code. 
