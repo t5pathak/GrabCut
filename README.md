@@ -23,11 +23,11 @@ The code below takes an input image and follows these steps:
 ### Effect of a tight initial bounding box or a loose bounding box
 Tested for 2 different images and observed that a tighter bounding box was better at image segmentation especially at the boundaries. 
 - Observe how the image segmentation is better towards the bottom of the banana.
-- <img width="500" alt="tb_1" src="https://user-images.githubusercontent.com/44245211/137881144-2daf9d11-16f8-4612-a563-6441144e54d0.png">
-- <img width="500" alt="lb_1" src="https://user-images.githubusercontent.com/44245211/137881165-4e1cc308-6d27-435f-8c5a-97ef54ea95a6.png">
+<img width="500" alt="tb_1" src="https://user-images.githubusercontent.com/44245211/137881144-2daf9d11-16f8-4612-a563-6441144e54d0.png">
+<img width="500" alt="lb_1" src="https://user-images.githubusercontent.com/44245211/137881165-4e1cc308-6d27-435f-8c5a-97ef54ea95a6.png">
 - Next, observe how the segmentation becomes better with a tighther bounding box for the stone. 
-- <img width="500" alt="tb_2" src="https://user-images.githubusercontent.com/44245211/137881172-80e940fd-5fb6-455a-b14e-5a88a83c26f6.png">
-- <img width="500" alt="lb_2" src="https://user-images.githubusercontent.com/44245211/137881177-2fbbbe95-8ce2-45a9-8d6f-eaf55f310ea6.png">
+<img width="500" alt="tb_2" src="https://user-images.githubusercontent.com/44245211/137881172-80e940fd-5fb6-455a-b14e-5a88a83c26f6.png">
+<img width="500" alt="lb_2" src="https://user-images.githubusercontent.com/44245211/137881177-2fbbbe95-8ce2-45a9-8d6f-eaf55f310ea6.png">
 
 ### Effect of a number of iterations
 Tested for 2 different images and compared with different number of images. The initial bounding box was identical for both n=1 and n=5. 
